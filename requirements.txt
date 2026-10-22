@@ -1,0 +1,17 @@
+# ==============================================================
+# Requirements for Hybrid QSNN (Quantum-Spiking Neural Network)
+# ==============================================================
+# Install PyTorch with CUDA first (see install command below),
+# then: pip install -r requirements.txt
+#
+# PyTorch CUDA install (run separately):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+# ==============================================================
+
+snntorch>=0.9.1
+qiskit>=1.0,<2.0
+qiskit-machine-learning[torch]>=0.7
+qiskit-aer>=0.13
+matplotlib>=3.7
+numpy>=1.24
+scikit-learn>=1.3
